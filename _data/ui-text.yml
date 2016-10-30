@@ -351,5 +351,49 @@ zh: &DEFAULT_ZH
   zh-TW:
     <<: *DEFAULT_ZH
 
+# Swedish
+# --------------
+sv: &DEFAULT_SV
+  page                       : "Sida"
+  pagination_previous        : "Föregående"
+  pagination_next            : "Nästa"
+  breadcrumb_home_label      : "Home"
+  breadcrumb_separator       : "/"
+  toc_label                  : "On This Page"
+  ext_link_label             : "Direct Link"
+  less_than                  : "mindre än"
+  minute_read                : "minute read"
+  share_on_label             : "Dela på"
+  meta_label                 :
+  tags_label                 : "Taggar:"
+  categories_label           : "Kategorier:"
+  date_label                 : "Updated:"
+  comments_label             : "Leave a Comment"
+  comments_title             : "Comments"
+  more_label                 : "Learn More"
+  related_label              : "You May Also Enjoy"
+  follow_label               : "Följ:"
+  feed_label                 : "Feed"
+  powered_by                 : "Skapad med"
+  website_label              : "Website"
+  email_label                : "Email"
+  recent_posts               : "Recent Posts"
+  undefined_wpm              : "Undefined parameter words_per_minute at _config.yml"
+  comment_form_info          : "Your email address will not be published. Required fields are marked"
+  comment_form_comment_label : "Kommentar"
+  comment_form_md_info       : "Markdown is supported."
+  comment_form_name_label    : "Name"
+  comment_form_email_label   : "Email adress"
+  comment_form_website_label : "Website (optional)"
+  comment_btn_submit         : "Submit Comment"
+  comment_btn_submitted      : "Submitted"
+  comment_success_msg        : "Thanks for your comment! It will show on the site once it has been approved."
+  comment_error_msg          : "Sorry, there was an error with your submission. Please make sure all required fields have been completed and try again."
+  loading_label              : "Loading..."
+sv-SE:
+  <<: *DEFAULT_SV
+
+
+
 # Another locale
 # --------------

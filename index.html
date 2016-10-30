@@ -1,14 +1,33 @@
 ---
-layout: archive
-author_profile: true
+layout: splash
+excerpt: "Patrick Ogenstad - Författare"
+intro:
+  - excerpt: 'Patrick Ogenstad skriver fantasy, sf och skräck. Han har medverkat i Stockholms undergång och arbetar nu på en egen roman.'
+    image_path: patrick-ogenstad-600x400.jpg
+    alt: "Patrick Ogenstad"
+    url: "/om-patrick/"
+    btn_label: "Läs mer"
+    btn_class: "btn--inverse"
+fruktan:
+  - image_path: fruktan-grupp-600x400.jpg
+    alt: "Fruktan"
+    title: "Fruktan"
+    excerpt: 'Fruktan är ett skrivarkollektiv som publicerar ljudnoveller, ger ut böcker. Vi arbetar tillsammans och hjälper varandra i vårt skrivande.'
+    url: "/fruktan/"
+    btn_label: "Läs mer"
+    btn_class: "btn--inverse"
+stockholms_undergang:
+  - image_path: stockholms-undergang-600x400.jpg
+    alt: "Stockholms undergång"
+    title: "Stockholms undergång"
+    excerpt: 'Stockholms undergång är en skräckantologi där vår huvudstad går under om och om.'
+    url: "/stockholms-undergang/"
+    btn_label: "Läs mer"
+    btn_class: "btn--inverse"
 ---
 
-{% include base_path %}
+{% include feature_row id="intro" type="center" %}
 
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+{% include feature_row id="fruktan" type="right" %}
 
-{% for post in paginator.posts %}
-  {% include archive-single.html %}
-{% endfor %}
-
-{% include paginator.html %}
+{% include feature_row id="stockholms_undergang" type="left" %}
