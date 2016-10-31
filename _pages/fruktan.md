@@ -102,7 +102,7 @@ malin:
 
 markus:
   - title: "Markus Sköld"
-    image_path: markus-skold-600x400.jpeg
+    image_path: markus-skold-600x400.jpg
     alt: "Markus Sköld"
     excerpt: 'Debutromanen Där ute i mörkret kom ut 2012. Markus senaste bok är Kalldrag som gavs ut i augusti 2016.'
     url: "https://markusskold.se/"
