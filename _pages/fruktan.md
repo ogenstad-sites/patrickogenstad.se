@@ -14,14 +14,21 @@ ljudnoveller:
   - excerpt: 'Det går att prenumerera på vår podcast för att lyssna på våra ljudnoveller i [iTunes](http://itunes.apple.com/se/podcast/fruktan/id445194459), andra klienter kan prenumerera [här](http://fruktan.se/feed/podcast/). En annan möjlighet är att lyssna på oss hos [Spotify](http://open.spotify.com/artist/1zRsnMoy0ZSPPcY4WFUm4h).
 '
     title: "Ljudnoveller"
+
 bocker:
-  - excerpt: 'Fruktans första gemensamma bok är [Stockholms undergång](/stockholms-undergang/), som släpptes 2014.
+- title: "Böcker"
 
-  Vi har en annan bok på gång som är något smalare än Stockholms undergång, men det är fortfarande fristående noveller i den.
-
-  Sedan har vi arbetat länge tillsammans på en ny bok som krävt mer samarbete än tidigare, där vi skapat en egen miljö med gemensamma karaktärer och en värld som byggs upp mer och mer efter varje novell.'
-    title: "Böcker"
+stockholms_undergang:
+  - excerpt: 'Fruktans första gemensamma bok är [Stockholms undergång](/stockholms-undergang/), som släpptes 2014.'
+    title: "Stockholms undergang"
     image_path: stockholms-undergang-600x400.jpg
+
+
+zonen:
+  - excerpt: 'Fruktans andra gemensamma bok är [Zonen vi ärvde](/zonen-vi-arvde/), som släpps i oktober 2017.'
+    title: "Zonen vi ärvde"
+    image_path: zonen-vi-arvde-600x400.jpg
+
 
 medlemmar:
   - title: "Medlemmar i Fruktan"
@@ -139,7 +146,11 @@ social:
 
 {% include feature_row id="intro" type="center" %}
 {% include feature_row id="ljudnoveller" type="center" %}
-{% include feature_row id="bocker" type="left" %}
+
+{% include feature_row id="bocker" type="center" %}
+{% include feature_row id="stockholms_undergang" type="left" %}
+{% include feature_row id="zonen" type="right" %}
+
 {% include feature_row id="medlemmar" type="center" %}
 
 {% include feature_row id="andreas" type="right" %}
